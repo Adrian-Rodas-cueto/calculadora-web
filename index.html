@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Calculator app</title>
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <script defer src="script/main.js"></script>
+  
+</head>
+
+<body>
+  <main class="calc">
+    <div class="header">
+      <h2 class="titulo">Calculadora</h2>
+    </div>
+    <section class="panel">
+      <input type="text" class="pantalla" id="panel" value="0">
+    </section>
+    <section class="controles">
+      <form class="numeros">
+        <div>
+          <input type="button" value="7" id="7">
+          <input type="button" value="8" id="8">
+          <input type="button" value="9" id="9">
+          <input type="button" id="del" value="del">
+        </div>
+        <div>
+          <input type="button" id="4" value="4">
+          <input type="button" id="5" value="5">
+          <input type="button" value="6" id="6">
+          <input type="button" value="+" id="+">
+        </div>
+        <div>
+          <input type="button" value="1" id="1">
+          <input type="button" value="2" id="2">
+          <input type="button" value="3" id="3">
+          <input type="button" value="-" id="-">
+        </div>
+        <div>
+          <input type="button" value="." id=".">
+          <input type="button" value="0" id="0">
+          <input type="button" value="/" id="/">
+          <input type="button" value="x" id="x">
+        </div>
+        <div class="ultimos">
+          <input type="button" value="reset" id="reset">
+          <input type="button" value="=" id="=">
+        </div>
+    </section>
+  </main>
+</body>
+
+</html>

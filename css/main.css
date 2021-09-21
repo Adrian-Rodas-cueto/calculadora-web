@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+/* tema 1 */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 380px;
+  max-width: 1440px;
+  background-color: grey;
+}
+/* calc */
+.calc {
+  width: 600px;
+  background-color: hsl(222, 26%, 31%);
+  color: hsl(221, 14%, 31%);
+  height: 80%;
+  text-align: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.calc .header {
+  color: white;
+  display: flex;
+  height: 10%;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+/* temas */
+.temas {
+  padding-left: 15rem;
+  font-size: 10px;
+  padding-top: 1rem;
+}
+.temas .numero {
+  padding-left: 1rem;
+}
+.temas .numero:first-child {
+  padding-left: 2rem;
+}
+.titulo {
+    text-transform: uppercase;
+}
+/* panel */
+.panel {
+  height: 20%;
+}
+
+.panel .pantalla {
+  width: 450px;
+  height: 100%;
+  border-radius: 20px;
+  border: none;
+  background-color: hsl(224, 36%, 15%);
+  color: white;
+  font-size: 60px;
+  text-align: right;
+}
+
+/* control */
+.controles {
+  margin-top: 1rem;
+  margin-left: 4.5rem;
+  width: 450px;
+  border-radius: 15px;
+  border: 2px hsl(225, 21%, 28%) solid;
+  background-color: hsl(223, 31%, 20%);
+}
+.controles form.numeros input:hover,
+#del:hover {
+  cursor: pointer;
+  background-color: hsl(30, 25%, 89%);
+  color: hsl(28, 16%, 65%);
+}
+.controles form input {
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  border: 2px hsl(225, 21%, 28%) solid;
+  font-size: 32px;
+  color: hsl(198, 20%, 13%);
+  background-color: hsl(225, 21%, 49%);
+}
+.controles .ultimos input {
+  width: 205px;
+  padding: 0;
+}
+.controles .ultimos input:last-child,
+#del {
+  background-color: hsl(6, 63%, 50%);
+  color: white;
+}
